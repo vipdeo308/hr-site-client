@@ -8,7 +8,7 @@ function Dashboard() {
       const [contact, setContact] = useState('');
       const [jobRole, setJobRole] = useState('');
       const [department, setDepartment] = useState('');
-      const [employees, setEmployees] = useState([]);
+      const [employees] = useState([]);
       const dispatch = useDispatch();
 
       const handleSubmit = (e) => {
